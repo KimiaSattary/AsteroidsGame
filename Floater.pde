@@ -19,7 +19,7 @@ class Floater //Do NOT modify the Floater class! Make changes in the Spaceship c
   }   
   public void turn (int nDegreesOfRotation)   
   {     
-    //rotates the floater by a given number of degrees    
+    //rotates the floater by a given number of degrees     
     myPointDirection+=nDegreesOfRotation;   
   }   
   public void move ()   //move the floater in the current direction of travel
