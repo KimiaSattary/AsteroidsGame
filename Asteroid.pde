@@ -8,7 +8,7 @@ class Asteroid extends Floater
     myColor = color(250, 250, 250);
     myCenterX = (0);
     myCenterY = (float)(Math.random()*400);
-    myDirectionX = (float)Math.random()*30;
+    myDirectionX = (float)Math.random()*5+2;
     myDirectionY = 0;
     myPointDirection = 0;
   }
@@ -28,9 +28,6 @@ class Asteroid extends Floater
   {
     pushMatrix();
     frameRate(30);
-    
-    // super.move();
-    
     //change the x and y coordinates by myDirectionX and myDirectionY       
     myCenterX += myDirectionX;    
     myCenterY += myDirectionY;     
