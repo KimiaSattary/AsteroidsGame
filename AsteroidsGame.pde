@@ -35,7 +35,6 @@ public void draw()
     if(dist((float)rocks.get(k).getRockX(), (float)rocks.get(k).getRockY(), (float)rocket.getXCoord(), (float)rocket.getYCoord())<30)
     {
       rocks.remove(rocks.get(k));
-      rocks.add(new Asteroid());
     }
   }
   for(int i=0; i<shooters.size();i++)
